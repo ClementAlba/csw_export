@@ -1,0 +1,36 @@
+[
+	{
+		"type": "catalogue",
+		"name": "dig",
+		"urls": {
+			"base": "https://services.api.isogeo.com/ows/s/d0383e6ec5b34f64b2898dd999c09861/c/c1522b8f91a041ed9b9ee7f41175e550/mX-2rsjmzr8JhartoFAcUbT92K-D0",
+			"records": "https://services.api.isogeo.com:443/csw/s/d0383e6ec5b34f64b2898dd999c09861/c/c1522b8f91a041ed9b9ee7f41175e550/mX-2rsjmzr8JhartoFAcUbT92K-D0/GetRecords",
+			"fiche": "https://open.isogeo.com/s/d0383e6ec5b34f64b2898dd999c09861/mX-2rsjmzr8JhartoFAcUbT92K-D0/r/"
+		}
+	},
+	{
+		"type": "catalogue",
+		"name": "agents_mel",
+		"urls": {
+			"base": "https://services.api.isogeo.com/ows/s/8d2ead61c93d4ad88a91bca2cc9202fc/c/2d7629422f1940fea9c11b3bbf6f9408/TcJgvhg9sJSYpkvJhGUU0SW6USF40",
+			"records": "https://services.api.isogeo.com:443/csw/s/8d2ead61c93d4ad88a91bca2cc9202fc/c/2d7629422f1940fea9c11b3bbf6f9408/TcJgvhg9sJSYpkvJhGUU0SW6USF40/GetRecords",
+			"fiche": "https://open.isogeo.com/s/8d2ead61c93d4ad88a91bca2cc9202fc/TcJgvhg9sJSYpkvJhGUU0SW6USF40/r/"
+		}
+	},
+	{
+		"type": "fichier",
+		"paths": {
+			"request": "D:\\Documents\\MISSIONS\\Mission_1\\request.xml",
+			"excel_dig": "D:\\Documents\\MISSIONS\\Mission_1\\output\\catalogue_interne_dig.xlsx",
+			"excel_agents": "D:\\Documents\\MISSIONS\\Mission_1\\output\\catalogue_agents_mel.xlsx"
+		}
+	},
+	{
+		"type": "balise_xml",
+		"tags": {
+			"record_tag_path": "{http://www.opengis.net/cat/csw/2.0.2}SearchResults/{http://www.opengis.net/cat/csw/2.0.2}Record",
+			"identifier": "{http://purl.org/dc/elements/1.1/}identifier",
+			"title": "{http://purl.org/dc/elements/1.1/}title"
+		}
+	}
+]
