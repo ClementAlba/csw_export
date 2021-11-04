@@ -60,10 +60,10 @@ def writeInExcelFile(records, filePath, url):
             # Écriture de l'id et du titre dans la feuille de travail excel
             worksheet.write(row, 0, title.text)
             worksheet.write(row, 1, url + id.text.split(':')[-1])
+
+            row += 1
     else:
         print("La variable records est vide.")
-
-        row += 1
 
     workbook.close()
 
