@@ -1,4 +1,4 @@
 .idea
 output
-csw_export.py
-config.json
+csw_export_prod.py
+config_prod.json
